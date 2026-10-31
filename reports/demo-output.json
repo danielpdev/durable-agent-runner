@@ -1,0 +1,32 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:52:14.524491+00:00",
+  "elapsed_seconds": 0.0149,
+  "result": {
+    "checkpoint": {
+      "id": "6eabbe3e-c6fb-4bc7-a91e-165ae96a2788",
+      "state": "running",
+      "step": 1,
+      "result": {
+        "sum": 6
+      }
+    },
+    "completed": {
+      "id": "6eabbe3e-c6fb-4bc7-a91e-165ae96a2788",
+      "state": "done",
+      "step": 3,
+      "result": {
+        "sum": 6
+      }
+    },
+    "effects": [
+      {
+        "job_id": "6eabbe3e-c6fb-4bc7-a91e-165ae96a2788",
+        "body": {
+          "sum": 6
+        }
+      }
+    ]
+  }
+}

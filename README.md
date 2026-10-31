@@ -6,6 +6,12 @@ Checkpointed jobs with restart-safe local side effects.
 
 **Role focus:** Agent Infrastructure / Backend. **Status:** working local portfolio implementation, with synthetic data.
 
+## Demo
+
+![How Durable Agent Runner works](docs/demo.gif)
+
+Edited replay of captured CLI outputs in deterministic fixture mode. This is not live model inference. [Full recording](docs/demo.mp4). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
+
 ## The engineering decision
 
 A job advances one durable step per transaction. The demonstrated business effect is stored in the same database transaction as its checkpoint, so a restart cannot duplicate that local effect.
